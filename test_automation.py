@@ -6,6 +6,8 @@ from selenium.webdriver.common.by import By
 
 import pytest
 from selenium.webdriver import Chrome
+from selenium import webdriver
+
 
 
 @pytest.fixture
