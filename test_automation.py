@@ -13,7 +13,7 @@ from selenium import webdriver
 @pytest.fixture
 def driver():
     # Initialize Chrome WebDriver
-    driver = Chrome()
+    driver = webdriver.Chrome()
     driver.maximize_window()
     driver.get("https://www.staysucasa.com/")
     yield driver
